@@ -49,12 +49,12 @@
 					<!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li><a href="#home">Home</a></li>
+<!-- 							<li><a href="#home">Home</a></li> -->
 							<li><a href="#solutions">Solutions</a></li>
 <!-- 							<li><a href="#ideas">Ideas</a></li> -->
-							<li><a href="#packages">Packages</a></li>
-							<li><a href="#packages">Pricing</a></li>
+							<li><a href="#recipes">Recipes</a></li>
 							<li><a href="#company">Company</a></li>
+							<li><a href="#carreers">Partners</a></li>
 							<li><a href="#carreers">Careers</a></li>
 							<li><a href="#contact">Support</a></li>
 							<!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
@@ -96,7 +96,7 @@
 						<h1>Continous Integration</h1>
 						<p class="lead">“Continuous Integration leads to significantly reduced integration
 						   problems and allows a team to develop cohesive software more rapidly”</p>
-						<a class="btn btn-large btn-primary" href="#">Learn More >></a>
+						<a class="btn btn-large btn-primary" href="#">Learn More &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -106,7 +106,7 @@
 					<div class="carousel-caption">
 						<h1>Manage Code Quality</h1>
 						<p class="lead">“A pinch of probability is worth a pound of perhaps”</p>
-						<a class="btn btn-large btn-primary" href="#">Know more >></a>
+						<a class="btn btn-large btn-primary" href="#">Know more &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -116,7 +116,7 @@
 					<div class="carousel-caption">
 						<h1>Cloud Computing</h1>
 						<p class="lead">“Achieve economies of scale and reduce spending on technology infrastructure”</p>
-						<a class="btn btn-large btn-primary" href="#">Explore >></a>
+						<a class="btn btn-large btn-primary" href="#">Explore &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -135,9 +135,11 @@
 	<br>
 	<br>
 	<br>
+		<h2 style="padding-left: 400px;"><i>What happens when...</i></h2>
+		<br>
 <!-- 		Three columns of text below the carousel -->
 		<div class="row">
-			<div class="span6">
+			<div class="span5">
 				<img class="img-polaroid" src="@routes.Assets.at("images/custom/ContinuousIntegrationCycle.png")">
 				<br>
 				<h2>Continous Integration</h2>
@@ -146,9 +148,12 @@
 					<a class="btn" href="#">View details &raquo;</a>
 				</p>
 			</div>
+			<div class="span2" style="padding-top: 300px;">
+				<h2 style="padding-top: 10px; padding-left:20px;">Meets</h2>
+			</div>
 			<!-- /.span4 -->
-			<div class="span6">
-				<img class="img-polaroid" src="@routes.Assets.at("images/custom/rsz_aws.png")">
+			<div class="span5">
+				<img class="img-polaroid" src="@routes.Assets.at("images/custom/pwd_aws.png")">
 				<h2>Cloud Computing</h2>
 				<p><b>Replace up-front capital infrastructure expenses with low variable<br> costs that scale with your business.</b></p>
 				<p>
@@ -173,50 +178,37 @@
 		</div>
 		<!-- /.row -->
 
-
 		<!-- START THE FEATURETTES -->
-
-		<hr class="featurette-divider">
-		<div id="packages">
+<!-- 		<hr class="featurette-divider"> -->
+<br>
+			<h2 style="padding-left: 400px;">Continous Delivery in Cloud</h2>
+			<br>
+			<div class="featurette">
+				<img class="featurette-image pull-right" src="@routes.Assets.at("/images/solutions/basic.png")">
+			</div>
+			<div style="padding-left:510px;">
+				<a class="btn btn-large btn-primary" href="#">Learn More &raquo;</a>
+			</div>
+	
+			<hr class="featurette-divider">
+			
+			<div id="recipes">
 			<br><br><br>
-			<div class="featurette">
-				<img class="featurette-image pull-right" src="@routes.Assets.at("/images/solutions/small.png")">
-				<h2 class="featurette-heading">
-					Everything You Need... <span class="muted">It'll blow
-						your mind.</span>
-				</h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor
-					fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
-					commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-					dapibus, tellus ac cursus commodo.</p>
+			<h2 style="padding-left: 400px;">Whats your recipe?</h2>
+	
+				<div class="featurette">
+					<img class="featurette-image pull-left" src="@routes.Assets.at("/images/solutions/basic.png")">
+					<h2 class="featurette-heading">
+						Everything You Want... <span class="muted">See for
+							yourself.</span>
+					</h2>
+					<p class="lead">A Little more than simple</p>
+				</div>
 			</div>
 	
 			<hr class="featurette-divider">
 	
-			<div class="featurette">
-				<img class="featurette-image pull-left" src="@routes.Assets.at("/images/solutions/medium.png")">
-				<h2 class="featurette-heading">
-					Everything You Want... <span class="muted">See for
-						yourself.</span>
-				</h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor
-					fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
-					commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-					dapibus, tellus ac cursus commodo.</p>
-			</div>
-	
-			<hr class="featurette-divider">
-	
-			<div class="featurette">
-				<img class="featurette-image pull-right" src="@routes.Assets.at("/images/solutions/extreme.png")">
-				<h2 class="featurette-heading">
-					You Simply Could Not Want for More... <span class="muted">Checkmate!</span>
-				</h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor
-					fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
-					commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-					dapibus, tellus ac cursus commodo.</p>
-			</div>
+			
 			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
 				<h3 id="myModalLabel">Privacy & Terms</h3>
